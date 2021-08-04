@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  padding-left: 50px;
+}
+
+.headul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.header-right {
+ float: right;
+}
+
+.header-left {
+  padding-top: 120px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px
+}
+
+.photo {
+  padding-top: 85px;
+  object-fit: cover;
+  object-position: 50%;
+  width: 100%;
+  height: 420px;
+}
+
+h2{
+  text-align: center;
+  padding: 60px;
+}
+
+.sample {
+  list-style: none;
+}
+
+p {
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.photos {
+ list-style: none;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-bottom: 33px;
+}
+ 
+.photos li{
+width: 33%;
+margin-bottom: 23px;
+}
+
+section {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.photos li div {
+  margin: 15px;
+}
+
+.photos img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+  }
+
+dl dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+dl dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+  margin: 0 ;
+}
+
+dl * {
+  box-sizing: border-box;
+}
+
+input {
+  width:724px;
+  height: 44px;
+}
+
+.contact {
+  float: left;
+  border: none;
+  padding-bottom: 0;
+}
+
+.last {
+width: 724px;
+height: 160px;
+}
+
+.button input {
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  padding: 15px 0;
+  margin-left: 380px;
+}
